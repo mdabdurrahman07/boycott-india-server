@@ -10,7 +10,8 @@ const allproduct = require("./src/model/allproduct");
 const allowedOrigins = [
   'http://localhost:5173',
   'https://dashboard.brainnect.com',
-  'https://brainnect.com'
+  'https://brainnect.com',
+  'https://brainnect.com/'
 ];
 
 app.use(cors({
